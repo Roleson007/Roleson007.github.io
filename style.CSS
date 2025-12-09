@@ -1,0 +1,68 @@
+body{
+	margin:0 20px;
+    background-image: url("1.jpg");
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:120vh;
+	padding-right:20px;
+}
+
+h1 {
+	color:#ccffcc;
+	text-align: center;
+}
+h2 {
+	color:#ccffcc;
+	text-align: center;
+}
+
+p {
+	color:#00fffd;
+	text-align: center;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.center-btn{
+	display: flex;
+    justify-content: center;
+    margin-top: 10px; /* необязательно */
+}
+
+.about-photos {
+	margin: 0 auto;
+	display: block;
+}
+
+.about-photos2 {
+	 display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+.subtitle {
+	color: lightblue;
+	font-weight: bold;
+}
+
+@media (max-width: 700px){
+	width: 100%;
+	float: none;
+	margin: 20px;
+}  
